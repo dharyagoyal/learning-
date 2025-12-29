@@ -1,9 +1,4 @@
-#login{
-    background-color: blue;
-    color: white;
-}
-
-#signup{
-    background-color: blue;
-    color: white;
+.follow{
+    text-decoration: none;
+    color: purple;
 }
