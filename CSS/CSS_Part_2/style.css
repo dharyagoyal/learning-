@@ -1,3 +1,43 @@
+*{
+    background-color: beige;
+    
+}
+
+h1, h3{
+    color: red;
+
+}
+
+#login{
+    background-color: blue;
+    color: white;
+}
+
+#signup{
+    background-color: blue;
+    color: white;
+}
+
+/* .follow{
+    text-decoration: none;
+    color: purple;
+} */
+
+/* Descendant Selector */
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li{
+    color: hotpink;
+}
+
+/* Adjacent Sibling COmbinator */
+p + h3{
+    text-decoration: underline;
+}
+
 input[type="text"]{
     color: green;
 }
@@ -9,3 +49,4 @@ input[type="password"]{
 input[type]{
     background-color: pink;
 }
+
