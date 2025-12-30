@@ -58,3 +58,12 @@ button:hover{
 h3:hover{
     text-decoration: none;
 }
+
+button:active{
+    background-color: pink;
+}
+
+p:active{
+    font-weight: bold;
+    color: darkcyan;
+}
