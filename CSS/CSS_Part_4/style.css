@@ -33,6 +33,6 @@ div:nth-of-type(3n){
 }
 
  #two{
-    transform: scaley(0.5);
+    transform: scale(0.5, 2);
  }
  
