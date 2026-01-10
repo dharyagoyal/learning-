@@ -8,7 +8,7 @@ div{
     text-align: center;
     border: 2px solid black;
     background-color: green;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 div:nth-of-type(2n) {
@@ -37,6 +37,6 @@ div:nth-of-type(3n){
  }
 
  #three{
-    transform: translate(100px, 100px);
+    transform: translateX(100px);
  }
  
