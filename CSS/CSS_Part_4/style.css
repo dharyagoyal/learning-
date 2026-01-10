@@ -1,0 +1,27 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: green;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellowgreen;
+}
+
+div:nth-of-type(3n){
+    background-color: yellow;
+}
+
+/* Alpha and Opacity */
+
+section{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+ 
