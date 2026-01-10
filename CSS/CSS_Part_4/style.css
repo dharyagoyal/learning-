@@ -34,9 +34,9 @@ div:nth-of-type(3n){
 
  #two{
     transform: scale(0.5);
- }
+}
 
- #three{
-    transform: translatey(-100px);
- }
+#three{
+    transform: translatey(100px);
+}
  
