@@ -11,12 +11,13 @@ h1 {
     background-color: azure;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 div {
     height: 100px;
-    width: 100px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 20px;
