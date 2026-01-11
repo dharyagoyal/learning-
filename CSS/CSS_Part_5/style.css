@@ -18,11 +18,11 @@ h1 {
 }
 
 #orange {
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
 #blue {
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
 div {
