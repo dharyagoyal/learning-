@@ -27,6 +27,7 @@ h1 {
     align-self: flex-start;
     /* flex-basis: 400px; */
     flex-grow: 2;
+    max-width: 200px;
 }
 
 div {
