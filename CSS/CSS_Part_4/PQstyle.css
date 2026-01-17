@@ -39,6 +39,7 @@
   width: 100px;
   height: 100px;
   background: lightgreen;
+  box-shadow: 2px 2px 5px green;
 }
 
 /* Qs5. Set Your picture or any picture as the background of the div
