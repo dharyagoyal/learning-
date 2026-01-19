@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.one {
+    justify-self: end;
+}
+
 /* .one {
     grid-column-start: 1;
     grid-column-end: 4;
