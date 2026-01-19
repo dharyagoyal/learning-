@@ -9,8 +9,11 @@
     /* grid-template-rows: repeat(count, 1fr); */
     /* 1fr means 1 fraction of 100% of available space (width (for rows) or height(for columns)) */
 
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr; /* grid rows can be written like this as well instead of repeat()*/
     grid-template-columns: repeat(3, 1fr);
+
+    row-gap: 10px;
+    column-gap: 20px;
 }
 
 .item{
