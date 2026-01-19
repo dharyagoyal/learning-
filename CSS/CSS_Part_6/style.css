@@ -9,7 +9,8 @@
     /* grid-template-rows: repeat(count, 1fr); */
     /* 1fr means 1 fraction of 100% of available space (width (for rows) or height(for columns)) */
 
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .item{
