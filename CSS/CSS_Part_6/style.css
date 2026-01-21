@@ -17,11 +17,13 @@
 
     gap: 10px;/* Shorthand for row-gap and column-gap*/
 
-    justify-items: center;
+    /* justify-items: center;
 
-    align-items: center;
+    align-items: center; */
 
     /* justify is to arrange horizontally and align is to arrange item vertically inside a cell */
+
+    place-items: center;
 }
 
 .item{
@@ -33,8 +35,8 @@
 }
 
 .one {
-    justify-self: end;
-    align-self: end;
+    /* justify-self: end;
+    align-self: end; */
 }
 
 /* .one {
