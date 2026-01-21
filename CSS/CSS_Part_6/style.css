@@ -24,6 +24,8 @@
     /* justify is to arrange horizontally and align is to arrange item vertically inside a cell */
 
     place-items: start;
+
+    /* Agar justify aur align ki properties ek saath same likhni ho to place ka use karte h */
 }
 
 .item{
