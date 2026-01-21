@@ -34,6 +34,7 @@
 
 .one {
     justify-self: end;
+    align-self: start;
 }
 
 /* .one {
