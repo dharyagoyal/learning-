@@ -41,3 +41,10 @@ div {
     }
     /* When width is between 200px and 300px background color changes to blue */
 }
+
+@media (orientation: landscape){
+    h1 {
+        background-color: orchid;
+        /* Changes background-color when in landscape orientation */
+    }
+}
