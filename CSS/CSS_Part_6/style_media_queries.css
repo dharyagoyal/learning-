@@ -21,8 +21,16 @@ div {
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
     h1 {
         background-color: greenyellow;
+        /* When width is more than 700px background color is yellowgreen */
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        background-color: pink;
+        /* When width is less than 400px background color is pink */
     }
 }
