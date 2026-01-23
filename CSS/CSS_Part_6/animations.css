@@ -3,12 +3,12 @@
     width: 300px;
     background-color: pink;
 
-    animation-name: fontAnimation;
-    animation-duration: 2s;
+    animation-name: bgcolorAnimate;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 0;
-    animation-iteration-count: 3;
-    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes fontAnimation {
@@ -17,5 +17,14 @@
     }
     to {
         font-size: 40px;
+    }
+}
+
+@keyframes bgcolorAnimate {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: red;
     }
 }
