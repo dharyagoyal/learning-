@@ -68,6 +68,9 @@
 
 .b1 {
     background-color: seagreen;
+    position: static;   
+    z-index: 1;
+    /* z-index does not work for static or default position */
 }
 
 .b2 {
