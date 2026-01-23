@@ -71,6 +71,8 @@
     position: relative;   
     z-index: 1;
     /* z-index does not work for static or default position */
+    /* z-index jitna zyada positive hoga wo element overlapping me utna upar dikhega  */
+    /* z-index jitna zyada negative hoga wo element overlapping me utna neeche dikhega */
 }
 
 .b2 {
