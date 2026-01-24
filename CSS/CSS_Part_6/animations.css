@@ -15,7 +15,9 @@
 
     /* animation: widthAnimate 3s linear 1s infinite alternate;*/
 
-    animation: AnimateMultiple 5s ease-in 0s 1 normal;
+    /* animation: AnimateMultiple 5s ease-in 0s 1 normal;*/
+
+    animation: colAnimate 4s linear 0s 1 normal;
 }
 
 @keyframes fontAnimation {
@@ -61,4 +63,21 @@
         text-align: center;
     }
     
+}
+
+/* If we want out animation to have intermediate steps we use % */
+
+@keyframes colAnimate {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: white;
+    }
 }
