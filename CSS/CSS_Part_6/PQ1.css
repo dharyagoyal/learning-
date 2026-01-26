@@ -1,6 +1,5 @@
 #container {
-    /* height: 700px;
-    width: 1400px; */
+    height: 100vh;
     background-color: white;
     display: grid;
     grid-template-rows: repeat(12, 1fr);
