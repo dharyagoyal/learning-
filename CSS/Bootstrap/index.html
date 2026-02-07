@@ -8,11 +8,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h2>Bootstrap Demo</h2>
 
-    <nav class="navbar bg-body-tertiary">
-      <a class="navbar-brand" href="#">Brand Name</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brand Name</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">About Us</a>
+          </div>
+        </div>
+      </div>
     </nav>
+
+    <h2>Bootstrap Demo</h2>
 
     <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dignissimos aliquid modi facilis, amet laborum dicta nemo enim temporibus quos nihil voluptas, nobis ullam culpa molestias deleniti aliquam repudiandae earum.
